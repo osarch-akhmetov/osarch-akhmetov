@@ -1,0 +1,1 @@
+8589934592  5600 Controller0-ChannelA-DIMM0

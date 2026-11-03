@@ -2,7 +2,7 @@
 
 | Field          | Details                                                                                      |
 |----------------|----------------------------------------------------------------------------------------------|
-| **Student**    | Альжан Ахметов                                                                               |
+| **Student**    | Alzhan Akhmetov                                                                              |
 | **Pair**       | Working alone                                                                                |
 | **Host**       | Laptop · Windows 11 · AMD Ryzen 5 7430U (6c/12t) · 16 GB RAM                                 |
 | **Guests**     | Ubuntu Server 26.04 (`lab01-ubuntu`) + Windows 11 Enterprise Evaluation (`lab02-windows`)    |

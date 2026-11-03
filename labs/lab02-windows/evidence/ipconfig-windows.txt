@@ -1,0 +1,12 @@
+PS C:\Users\dxtra> ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::81cd:2926:7987:d3b7%5
+   IPv4 Address. . . . . . . . . . . : 10.0.2.4
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 10.0.2.1

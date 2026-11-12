@@ -2,7 +2,7 @@
 
 Pair: Alzhan Akhmetov  
 Machine: host (Windows laptop), Linux guest (Ubuntu under KVM)  
-Date: 12.11.2026
+Date: 8.11.2026
 
 ## What I did
 

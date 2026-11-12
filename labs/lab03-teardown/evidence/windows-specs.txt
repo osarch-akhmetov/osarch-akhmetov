@@ -1,0 +1,33 @@
+Collected 2026-11-08T21:12:40 on ALZHAN
+
+PS> Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors | Format-List
+Name                      : AMD Ryzen 5 7430U with Radeon Graphics
+NumberOfCores             : 6
+NumberOfLogicalProcessors : 12
+
+PS> (Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory
+16538198016
+
+PS> Get-CimInstance Win32_PhysicalMemory | Select-Object BankLabel, Capacity, Speed, ConfiguredClockSpeed, Manufacturer, PartNumber | Format-Table -AutoSize
+BankLabel      Capacity Speed ConfiguredClockSpeed Manufacturer PartNumber
+---------      -------- ----- -------------------- ------------ ----------
+P0 CHANNEL A 8589934592  3200                 3200 Wodposit     WPBH32D408SWD-8G
+P0 CHANNEL B 8589934592  3200                 3200 Wodposit     WPBH32D408SWD-8G
+
+PS> Get-PhysicalDisk | Select-Object FriendlyName, MediaType, BusType, Size | Format-Table -AutoSize
+FriendlyName MediaType BusType          Size
+------------ --------- -------          ----
+WPBSNM8-1TMP SSD       NVMe    1024209543168
+
+PS> Get-Volume | Select-Object DriveLetter, FileSystemLabel, FileSystem, SizeRemaining, Size | Format-Table -AutoSize
+DriveLetter FileSystemLabel FileSystem SizeRemaining         Size
+----------- --------------- ---------- -------------         ----
+                            NTFS           233234432   1152380928
+            SYSTEM          FAT32          221577216    310378496
+C           Windows         NTFS         46050209792 320971206656
+D           Local Disk      NTFS        295272062976 700678402048
+
+PS> Get-CimInstance Win32_BIOS | Select-Object Manufacturer, SMBIOSBIOSVersion, ReleaseDate | Format-List
+Manufacturer      : American Megatrends International, LLC.
+SMBIOSBIOSVersion : 1.17
+ReleaseDate       : 4/24/2025 5:00:00 AM

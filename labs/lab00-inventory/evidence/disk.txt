@@ -1,7 +1,0 @@
-﻿
-Number FriendlyName              SerialNumber                             MediaType CanPool OperationalStatus HealthSta
-                                                                                                              tus      
------- ------------              ------------                             --------- ------- ----------------- ---------
-0      Micron_2400_MTFDKBA1T0QFM 0000_0000_0000_0001_00A0_7522_3C10_B335. SSD       False   OK                Healthy  
-
-

@@ -1,0 +1,8 @@
+﻿PS> Get-PhysicalDisk | Select FriendlyName, MediaType, BusType
+
+FriendlyName              MediaType BusType
+------------              --------- -------
+Micron_2400_MTFDKBA1T0QFM SSD       NVMe   
+
+
+

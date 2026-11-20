@@ -1,0 +1,11 @@
+﻿PS> Get-CimInstance Win32_Processor | Select Name, NumberOfCores, NumberOfLogicalProcessors, VirtualizationFirmwareEnabled
+
+
+Name                          : 12th Gen Intel(R) Core(TM) i7-1280P
+NumberOfCores                 : 14
+NumberOfLogicalProcessors     : 20
+VirtualizationFirmwareEnabled : False
+
+
+
+

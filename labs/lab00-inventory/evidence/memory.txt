@@ -1,0 +1,9 @@
+﻿PS> Get-CimInstance Win32_PhysicalMemory | Select Capacity, Speed, Manufacturer
+
+  Capacity Speed Manufacturer
+  -------- ----- ------------
+8589934592  3200 Samsung     
+8589934592  3200 Samsung     
+
+
+

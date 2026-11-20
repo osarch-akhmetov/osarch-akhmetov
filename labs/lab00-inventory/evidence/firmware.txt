@@ -1,0 +1,3 @@
+﻿PS> (Get-ComputerInfo).BiosFirmwareType
+Uefi
+

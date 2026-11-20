@@ -1,0 +1,9 @@
+﻿PS> Get-CimInstance Win32_BIOS | Select SMBIOSBIOSVersion, ReleaseDate
+
+
+SMBIOSBIOSVersion : E17R1IMS.10C
+ReleaseDate       : 03.08.2022 5:00:00
+
+
+
+

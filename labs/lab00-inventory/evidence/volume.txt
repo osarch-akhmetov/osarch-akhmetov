@@ -1,0 +1,8 @@
+﻿PS> Get-Volume C
+
+DriveLetter FriendlyName FileSystemType DriveType HealthStatus OperationalStatus SizeRemaining      Size
+----------- ------------ -------------- --------- ------------ ----------------- -------------      ----
+C           Windows 11   NTFS           Fixed     Healthy      OK                    795.67 GB 953.75 GB
+
+
+

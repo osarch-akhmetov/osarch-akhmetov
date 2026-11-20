@@ -1,0 +1,6 @@
+﻿akhmetov@lab01-akhmetov:~$ uname -a; lsb_release -a
+Linux lab01-akhmetov 6.8.0-151-generic #151-Ubuntu SMP PREEMPT_DYNAMIC Wed Nov 11 01:28:36 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+Distributor ID:	Ubuntu
+Description:	Ubuntu 24.04.3 LTS
+Release:	24.04
+Codename:	noble

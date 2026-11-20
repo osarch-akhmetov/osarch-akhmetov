@@ -1,0 +1,39 @@
+﻿=== Guest 1 (akhmetov@lab01-akhmetov, 10.0.2.3) -> Guest 2 & Internet ===
+PING 10.0.2.4 (10.0.2.4) 56(84) bytes of data.
+64 bytes from 10.0.2.4: icmp_seq=1 ttl=64 time=1.06 ms
+64 bytes from 10.0.2.4: icmp_seq=2 ttl=64 time=1.26 ms
+64 bytes from 10.0.2.4: icmp_seq=3 ttl=64 time=1.04 ms
+64 bytes from 10.0.2.4: icmp_seq=4 ttl=64 time=0.663 ms
+
+--- 10.0.2.4 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3363ms
+rtt min/avg/max/mdev = 0.663/1.005/1.263/0.216 ms
+PING ubuntu.com (185.125.190.21) 56(84) bytes of data.
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=1 ttl=47 time=166 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=2 ttl=47 time=236 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=3 ttl=47 time=182 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=4 ttl=47 time=160 ms
+
+--- ubuntu.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3017ms
+rtt min/avg/max/mdev = 160.451/186.284/236.378/29.963 ms
+
+=== Guest 2 (akhmetov@lab02-akhmetov, 10.0.2.4) -> Guest 1 & Internet ===
+PING 10.0.2.3 (10.0.2.3) 56(84) bytes of data.
+64 bytes from 10.0.2.3: icmp_seq=1 ttl=64 time=0.933 ms
+64 bytes from 10.0.2.3: icmp_seq=2 ttl=64 time=1.24 ms
+64 bytes from 10.0.2.3: icmp_seq=3 ttl=64 time=1.22 ms
+64 bytes from 10.0.2.3: icmp_seq=4 ttl=64 time=1.24 ms
+
+--- 10.0.2.3 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3049ms
+rtt min/avg/max/mdev = 0.933/1.157/1.243/0.130 ms
+PING ubuntu.com (185.125.190.21) 56(84) bytes of data.
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=1 ttl=47 time=176 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=2 ttl=47 time=172 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=3 ttl=47 time=200 ms
+64 bytes from website-content-cache-2.ps5.canonical.com (185.125.190.21): icmp_seq=4 ttl=47 time=233 ms
+
+--- ubuntu.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3036ms
+rtt min/avg/max/mdev = 171.984/195.172/233.210/24.379 ms
